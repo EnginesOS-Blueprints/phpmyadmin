@@ -1,0 +1,15 @@
+name: phpmysqladmin-test
+framework: php
+services:
+ Ovidentiadb-test: mysql
+requirements:
+ staging:
+  ubuntu:
+   - php5-apcu   - php-apc
+hooks:
+ pre-staging:
+  - bash stackato-pre-setup.sh
+ post-staging:
+  - bash stackato-setup.sh
+ pre-running:
+  - sh completeinstall.sh
