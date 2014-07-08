@@ -1,5 +1,5 @@
 name: phpmysqladmin-test
-framework:
+memory: 128framework:
  type: php
 services:
  Ovidentiadb-test: mysql
