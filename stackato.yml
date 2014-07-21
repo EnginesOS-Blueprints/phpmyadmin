@@ -7,8 +7,7 @@ services:
 requirements:
  running:
   ubuntu:
-   - php5-apcu
-   - php-apc
+   - php5-apcu php-apc 
 
 hooks:
  pre-staging:
