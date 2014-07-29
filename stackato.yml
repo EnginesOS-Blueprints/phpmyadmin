@@ -1,13 +1,13 @@
 name: phpmysqladmin-test
-memory: 128
+memory: 96
 framework:
  type: php
 services:
- Ovidentiadb-test: mysql
+ redminedb-test: mysql
 requirements:
  running:
   ubuntu:
-   - php-apc 
+   - php5-apcu  
 
 hooks:
  pre-staging:

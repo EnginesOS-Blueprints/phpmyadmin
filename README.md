@@ -1,2 +1,2 @@
 ReadMe for phpmysqladmin
-ppadmin linked to ovdientia
+php based administration for mysql server (all mysql services)
