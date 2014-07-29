@@ -4,10 +4,6 @@ framework:
  type: php
 services:
  redminedb-test: mysql
-requirements:
- running:
-  ubuntu:
-   - php-apcu  
 
 hooks:
  pre-staging:
