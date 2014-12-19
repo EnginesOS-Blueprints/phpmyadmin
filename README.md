@@ -1,2 +1,2 @@
-ReadMe for phpmysqladmin
-php based administration for mysql server (all mysql services)
+ReadMe for pg_admin
+phpPgAdmin is a web-based administration tool for PostgreSQL. It is perfect for PostgreSQL DBAs, newbies, and hosting services.
